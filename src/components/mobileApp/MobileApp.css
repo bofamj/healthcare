@@ -1,0 +1,26 @@
+.mobile-sec{
+    margin-top:150px;
+    margin-right:10%;
+    justify-content:space-around
+}
+.mobile-text{
+    
+    padding-left: 100px;
+}
+.mobile-text h1{
+    padding-right:160px;
+    margin-bottom:-10px;
+ 
+}
+.mobile-text  span{
+    margin-bottom:-10px;
+}
+.mobile-btn{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top:5px
+}
+.mobile-btn img{
+    margin-left:15px
+}

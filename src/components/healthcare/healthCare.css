@@ -1,0 +1,43 @@
+
+
+
+.health-sec{
+    width:80%;
+    margin-left:10%;
+    display:flex;
+    height:477px;
+    align-items:center;
+    justify-content:space-between;
+}
+.imeg-sec{
+    width:582px;
+}
+.imeg-sec img {
+    width:582px;
+}
+.text-sec{
+    width:418px;
+    height:388px;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    justify-content:space-around;
+   
+}
+.text-sec h1{
+    font-size:30px;
+    padding-right:20px;
+}
+.text-sec span{
+    width:56px;
+    height:2px;
+    background-color: #000000;
+}
+.text-sec p{
+    font-size:15px;
+    padding-right:100px;
+    color:#7D7987;
+}
+.btn-health{
+    margin-top:30px
+}

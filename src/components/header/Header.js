@@ -1,5 +1,5 @@
 import'./heder.css'
-import image from '../../assets/people-sitting-hospital-corridor-waiting-doctor-patient-clinic-visit-flat-vector-illustration-medicine-healthcare_74855-8507.jpg'
+import image from '../../assets/trafalgar-header illustration 1.png'
 const Header = () => {
     return (
         <header>

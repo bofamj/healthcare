@@ -1,5 +1,10 @@
 import React from 'react'
-import svg from '../../assets/medical-briefcase.svg'
+import svg from '../../assets/Frame.png'
+import serch from '../../assets/FrameSerch.png'
+import mide from '../../assets/Framemide.png'
+import form from '../../assets/FrameForm.png'
+import detail from '../../assets/detail.png'
+import track from '../../assets/track.png'
 import './services.css'
 
 const Services = () => {
@@ -12,34 +17,35 @@ const Services = () => {
             </section>
             <section className="cards">
                 <div className="card">
-                    <img src={svg} alt="" />
+                    <img src={serch} alt="" />
+                    <h3>Search doctor</h3>
+                    <p>Choose your doctor from thousands of specialist, general, and trusted hospitals</p>
+                </div>
+                <div className="card">
+                    <img src={mide} alt="" />
                     <h3>Online pharmacy</h3>
                     <p>Buy  your medicines with our mobile application with a simple delivery system</p>
                 </div>
                 <div className="card">
-                    <img src={svg} alt="" />
-                    <h3>Online pharmacy</h3>
-                    <p>Buy  your medicines with our mobile application with a simple delivery system</p>
+                    <img src={form} alt="" />
+                    <h3>Consultation</h3>
+                    <p>Free consultation with our trusted doctors and get the best recomendations</p>
+                </div>
+                <div className="card">
+                    <img src={detail} alt="" />
+                    <h3>Details info</h3>
+                    <p>Free consultation with our trusted doctors and get the best recomendations</p>
                 </div>
                 <div className="card">
                     <img src={svg} alt="" />
-                    <h3>Online pharmacy</h3>
-                    <p>Buy  your medicines with our mobile application with a simple delivery system</p>
+                    <h3>Emergency care</h3>
+                    <p>You can get 24/7 urgent care for yourself or your children and your
+                        lovely family</p>
                 </div>
                 <div className="card">
-                    <img src={svg} alt="" />
-                    <h3>Online pharmacy</h3>
-                    <p>Buy  your medicines with our mobile application with a simple delivery system</p>
-                </div>
-                <div className="card">
-                    <img src={svg} alt="" />
-                    <h3>Online pharmacy</h3>
-                    <p>Buy  your medicines with our mobile application with a simple delivery system</p>
-                </div>
-                <div className="card">
-                    <img src={svg} alt="" />
-                    <h3>Online pharmacy</h3>
-                    <p>Buy  your medicines with our mobile application with a simple delivery system</p>
+                    <img src={track} alt="" />
+                    <h3>Tracking</h3>
+                    <p>Track and save your medical history and health data </p>
                 </div>
                 
             </section>
