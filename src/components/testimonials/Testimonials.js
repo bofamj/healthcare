@@ -26,6 +26,12 @@ const Testimonials = () => {
             </section>
                 <section className='btn-raper'>
                     <button className="btn-prev"><img src={prev} alt="" /></button>
+                    <div className="input-ra">
+                        <input type="checkbox" value="" />
+                        <input type="checkbox" value="" />
+                        <input type="checkbox" value="" />
+                        <input type="checkbox" value="" />
+                    </div>
                     <button className="btn-next"><img src={next} alt="" /></button>
                 </section>
         </main>

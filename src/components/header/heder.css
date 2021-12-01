@@ -1,5 +1,5 @@
 header{
-    width:1349.4px;
+    width:100%;
     height:719px;
     display:flex;
     flex-direction:column;
@@ -18,6 +18,18 @@ header{
     font-size:30px;
     color:#233348;
     cursor:pointer;
+}
+.logo-section span{
+    width: 40px;
+    height: 40px;
+    border-radius:50%;
+    background-color:#fff;
+    color:#5B9BF3;
+    display:flex;
+    font-weight: bold;
+    font-size: 26px;
+    align-items:center;
+    justify-content:center;
 }
 .nav-bar ul{
     display:flex;
@@ -38,7 +50,7 @@ header{
     
 }
 .text{
-    width:445px;
+    width:33%;
     height:338px;
     margin-left: 13.5%;
 }
@@ -52,7 +64,7 @@ header{
     padding-bottom:35px
 }
 .hero-imege{
-    width:693px;
+    width:51.4%;
     height:598px;
     margin-right: 13.5%;
 }

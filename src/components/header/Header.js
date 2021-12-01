@@ -4,8 +4,9 @@ const Header = () => {
     return (
         <header>
             <section className='nav-section'>
-                <div className="logo">
-                    <h2>Trafalgar</h2>
+                <div className='logo logo-fot-rap'>
+                        <span>T</span>
+                        <h1 className='logo footer-logo'>Trafalgar</h1>
                 </div>
                 <nav className='nav-bar'>
                     <ul>

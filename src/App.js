@@ -3,6 +3,8 @@ import Services from './components/services/Services'
 import HealthCare from './components/healthcare/HealthCare'
 import MobileApp from './components/mobileApp/MobileApp';
 import Testimonials from './components/testimonials/Testimonials'
+import Foter from './components/footer/Foter'
+import Article from './components/article/Article'
 import './App.css';
 
 function App() {
@@ -13,6 +15,8 @@ function App() {
       <HealthCare />
       <MobileApp />
       <Testimonials />
+      <Article/>
+      <Foter/>
     </div>
   );
 }

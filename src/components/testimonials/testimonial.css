@@ -80,6 +80,29 @@
     height:144px;
     line-height:25px;
 }
+.btn-raper{
+    width:300px;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    
+}
+.btn-raper button{
+    background:none;
+    border:none;
+    color:#458FF6;
+    /* transform: rotate(-180deg); */
+}
+.input-ra{
+    width:80px;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+   
+}
+.input-ra input{
+    background-color:aquamarine
+}
 
 
 
